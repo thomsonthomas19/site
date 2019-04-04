@@ -10,7 +10,9 @@ body {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #dcdcda;
   position: relative;
 }
 
@@ -21,7 +23,7 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: #72757a;
   padding: 10px 10px 10px 10px;
 }
 
@@ -39,11 +41,22 @@ body {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: #72757a;
 }
 
-.nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+#about:hover {
+  background-color: #27a4dd;
+  color: black;
+}
+
+#portfolio:hover {
+  background-color: #9dd5c0;
+  color: black;;
+}
+
+#contact:hover {
+  background-color: #fac174;
+  color: black;
 }
 
 .nav > #nav-check {
@@ -63,9 +76,9 @@ body {
     height: 50px;
     padding: 13px;
   }
-  .nav > .nav-btn > label:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
+  /* .nav > .nav-btn > label:hover {
+    background-color: #282640;
+  } */
   .nav > .nav-btn > label > span {
     display: block;
     width: 25px;
@@ -76,7 +89,7 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #474B4F;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
