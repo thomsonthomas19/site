@@ -19,6 +19,9 @@ const Contact = () => {
       <h3 style={{ color: "black", textAlign: "center", textShadow: "0px 0px #fac174", marginTop: "2%", marginBottom: "1%" }}>Phone: 732.593.7629</h3>
       <h3 style={{ color: "black", textAlign: "center", textShadow: "0px 0px #fac174", marginTop: "1%", marginBottom: "1%" }}>Email: <a style={{ color: "black", textDecoration: "none" }} href="mailto:thomsonthomas19@gmail.com">thomsonthomas19@gmail.com</a></h3>
 
+      <p style={{ lineHeight: "1.6", fontSize: "1.1rem", textAlign: "center" }}> <a href="https://docs.google.com/document/d/12gY2-DjdQBV_O2pZgNaANeL_PlU5MxTC5oW13Q3Ytjc/edit?usp=sharing" target="_blank" style={{ textShadow: "3px 3px #fac174", color: "black", textDecoration: "none", fontWeight: "bold" }}>Resume</a>
+      </p>
+
       <hr style={{ width: "40%", color: "#fac174", backgroundColor: "#fac174", borderColor: "#fac174#fac174", marginTop: "3%" }} />
       <h2 style={{ color: "black", textAlign: "center", textShadow: "1px 1px #fac174", marginTop: "2%", marginBottom: "1%" }}>Find Me On</h2>
       <hr style={{ width: "15%", color: "#fac174", backgroundColor: "#fac174", borderColor: "#fac174" }} />
